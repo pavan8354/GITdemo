@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Reset functionality on login page of Application</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenarioOutline">Scenario Outline: Verification of reset button with numbers of credential</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario Outline: Verification of reset button with numbers of credential</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  Open the Firefox and launch the application (passed : 113s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  Enter the Username &lt;username&gt;and Password &lt;password&gt; and logs in (passed : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  close browsers (passed : 54s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-05-13T10:50:12 IST" name="Suite" finished-at="2020-05-13T10:53:13 IST" duration-ms="181496">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:Cucumberoptions.Runner@710c2b53]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-05-13T10:50:12 IST" name="Validating User Login" finished-at="2020-05-13T10:53:13 IST" duration-ms="181496">
+      <class name="Cucumberoptions.Runner">
+        <test-method signature="run_cukes()[pri:0, instance:Cucumberoptions.Runner@710c2b53]" started-at="2020-05-13T10:50:12 IST" name="run_cukes" description="Runs Cucumber Features" finished-at="2020-05-13T10:53:13 IST" duration-ms="181332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Reset functionality on login page of Application</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenarioOutline">Scenario Outline: Verification of reset button with numbers of credential</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario Outline: Verification of reset button with numbers of credential</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  Open the Firefox and launch the application (passed : 113s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  Enter the Username &lt;username&gt;and Password &lt;password&gt; and logs in (passed : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  close browsers (passed : 54s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- Cucumberoptions.Runner -->
+    </test> <!-- Validating User Login -->
+  </suite> <!-- Suite -->
+</testng-results>
